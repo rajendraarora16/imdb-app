@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app version="3.0"
+         xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+         metadata-complete="false">
+
+		<servlet>
+			<servlet-name>addNewsArticle</servlet-name>
+			<servlet-class>com.pages.addNewsArticle</servlet-class>
+		</servlet>
+		<servlet-mapping>
+			<servlet-name>addNewsArticle</servlet-name>
+			<url-pattern>/addNewsArticle</url-pattern>
+		</servlet-mapping>
+		
+		<servlet>
+			<servlet-name>addMoviesdb</servlet-name>
+			<servlet-class>com.pages.addMoviesdb</servlet-class>
+		</servlet>
+		<servlet-mapping>
+			<servlet-name>addMoviesdb</servlet-name>
+			<url-pattern>/addMoviesdb</url-pattern>
+		</servlet-mapping>
+		
+		<servlet>
+			<servlet-name>deleteMovies</servlet-name>
+			<servlet-class>com.pages.deleteMovies</servlet-class>
+		</servlet>
+		<servlet-mapping>
+			<servlet-name>deleteMovies</servlet-name>
+			<url-pattern>/deleteMovies</url-pattern>
+		</servlet-mapping>
+		
+		<servlet>
+			<servlet-name>deleteBiography</servlet-name>
+			<servlet-class>com.pages.deleteBiography</servlet-class>
+		</servlet>
+		<servlet-mapping>
+			<servlet-name>deleteBiography</servlet-name>
+			<url-pattern>/deleteBiography</url-pattern>
+		</servlet-mapping>
+		
+		<servlet>
+			<servlet-name>deleteArticle</servlet-name>
+			<servlet-class>com.pages.deleteArticle</servlet-class>
+		</servlet>
+		<servlet-mapping>
+			<servlet-name>deleteArticle</servlet-name>
+			<url-pattern>/deleteArticle</url-pattern>
+		</servlet-mapping>
+		
+		<servlet>
+			<servlet-name>addBiography</servlet-name>
+			<servlet-class>com.pages.addBiography</servlet-class>
+		</servlet>
+		<servlet-mapping>
+			<servlet-name>addBiography</servlet-name>
+			<url-pattern>/addBiography</url-pattern>
+		</servlet-mapping>
+		
+		<servlet>
+			<servlet-name>index</servlet-name>
+			<servlet-class>com.pages.index</servlet-class>
+		</servlet>
+		<servlet-mapping>
+			<servlet-name>index</servlet-name>
+			<url-pattern>/index</url-pattern>
+		</servlet-mapping>
+		
+		<servlet>
+ 			 <servlet-name>login</servlet-name>
+  			 <jsp-file>/loginPage.jsp</jsp-file>
+		</servlet>
+		<servlet-mapping>
+  			 <servlet-name>login</servlet-name>
+  			 <url-pattern>/login</url-pattern>
+		</servlet-mapping>
+		
+		<servlet>
+ 			 <servlet-name>deletedSuccess</servlet-name>
+  			 <jsp-file>/deletedSuccess.jsp</jsp-file>
+		</servlet>
+		<servlet-mapping>
+  			 <servlet-name>deletedSuccess</servlet-name>
+  			 <url-pattern>/deletedSuccess</url-pattern>
+		</servlet-mapping>
+		
+		<servlet>
+ 			 <servlet-name>Bio</servlet-name>
+  			 <jsp-file>/showBio.jsp</jsp-file>
+		</servlet>
+		<servlet-mapping>
+  			 <servlet-name>Bio</servlet-name>
+  			 <url-pattern>/Bio</url-pattern>
+		</servlet-mapping>
+		
+		<servlet>
+ 			 <servlet-name>showNews</servlet-name>
+  			 <jsp-file>/showNews.jsp</jsp-file>
+		</servlet>
+		<servlet-mapping>
+  			 <servlet-name>showNews</servlet-name>
+  			 <url-pattern>/News</url-pattern>
+		</servlet-mapping>
+		
+		<servlet>
+ 			 <servlet-name>addMovies</servlet-name>
+  			 <jsp-file>/addMovies.jsp</jsp-file>
+		</servlet>
+		<servlet-mapping>
+  			 <servlet-name>addMovies</servlet-name>
+  			 <url-pattern>/addMovies</url-pattern>
+		</servlet-mapping>
+		
+		<servlet>
+ 			 <servlet-name>movieDetails</servlet-name>
+  			 <jsp-file>/movieDetails.jsp</jsp-file>
+		</servlet>
+		<servlet-mapping>
+  			 <servlet-name>movieDetails</servlet-name>
+  			 <url-pattern>/movieDetails</url-pattern>
+		</servlet-mapping>
+		
+		<servlet>
+ 			 <servlet-name>addNews</servlet-name>
+  			 <jsp-file>/addNewsArticle.jsp</jsp-file>
+		</servlet>
+		<servlet-mapping>
+  			 <servlet-name>addNews</servlet-name>
+  			 <url-pattern>/addNews</url-pattern>
+		</servlet-mapping>
+		
+		<servlet>
+ 			 <servlet-name>addBio</servlet-name>
+  			 <jsp-file>/addBio.jsp</jsp-file>
+		</servlet>
+		<servlet-mapping>
+  			 <servlet-name>addBio</servlet-name>
+  			 <url-pattern>/addBio</url-pattern>
+		</servlet-mapping>
+		
+		<servlet>
+ 			 <servlet-name>error</servlet-name>
+  			 <jsp-file>/error.jsp</jsp-file>
+		</servlet>
+		<servlet-mapping>
+  			 <servlet-name>error</servlet-name>
+  			 <url-pattern>/error</url-pattern>
+		</servlet-mapping>
+		
+		<servlet>
+ 			 <servlet-name>profile</servlet-name>
+  			 <jsp-file>/profile.jsp</jsp-file>
+		</servlet>
+		<servlet-mapping>
+  			 <servlet-name>profile</servlet-name>
+  			 <url-pattern>/profile</url-pattern>
+		</servlet-mapping>
+		
+		<servlet>
+ 			 <servlet-name>verify</servlet-name>
+  			 <jsp-file>/verify.jsp</jsp-file>
+		</servlet>
+		<servlet-mapping>
+  			 <servlet-name>verify</servlet-name>
+  			 <url-pattern>/verify</url-pattern>
+		</servlet-mapping>
+		
+		<servlet>
+ 			 <servlet-name>passwordSent</servlet-name>
+  			 <jsp-file>/passwordSent.jsp</jsp-file>
+		</servlet>
+		<servlet-mapping>
+  			 <servlet-name>passwordSent</servlet-name>
+  			 <url-pattern>/passwordSent</url-pattern>
+		</servlet-mapping>
+		
+		<servlet>
+ 			 <servlet-name>logout</servlet-name>
+  			 <jsp-file>/logout.jsp</jsp-file>
+		</servlet>
+		<servlet-mapping>
+  			 <servlet-name>logout</servlet-name>
+  			 <url-pattern>/logout</url-pattern>
+		</servlet-mapping>
+		
+		<servlet>
+ 			 <servlet-name>successfullyPasswordChanged</servlet-name>
+  			 <jsp-file>/successfullyPasswordChanged.jsp</jsp-file>
+		</servlet>
+		<servlet-mapping>
+  			 <servlet-name>successfullyPasswordChanged</servlet-name>
+  			 <url-pattern>/successfullyPasswordChanged</url-pattern>
+		</servlet-mapping>
+		
+		<servlet>
+			<servlet-name>signup</servlet-name>
+			<jsp-file>/signupPage.jsp</jsp-file>
+		</servlet>
+		<servlet-mapping>
+			<servlet-name>signup</servlet-name>
+			<url-pattern>/signup</url-pattern>
+		</servlet-mapping>
+		
+		<servlet>
+			<servlet-name>invalidLogin</servlet-name>
+			<jsp-file>/invalidLogin.jsp</jsp-file>
+		</servlet>
+		<servlet-mapping>
+			<servlet-name>invalidLogin</servlet-name>
+			<url-pattern>/invalidLogin</url-pattern>
+		</servlet-mapping>
+		
+		<servlet>
+			<servlet-name>forget</servlet-name>
+			<jsp-file>/forget.jsp</jsp-file>
+		</servlet>
+		<servlet-mapping>
+			<servlet-name>forget</servlet-name>
+			<url-pattern>/forget</url-pattern>
+		</servlet-mapping>
+		
+		<servlet>
+			<servlet-name>home</servlet-name>
+			<jsp-file>/home.jsp</jsp-file>
+		</servlet>
+		<servlet-mapping>
+			<servlet-name>home</servlet-name>
+			<url-pattern>/home</url-pattern>
+		</servlet-mapping>
+		
+		<servlet>
+			<servlet-name>searchResult</servlet-name>
+			<jsp-file>/searchResult.jsp</jsp-file>
+		</servlet>
+		<servlet-mapping>
+			<servlet-name>searchResult</servlet-name>
+			<url-pattern>/search</url-pattern>
+		</servlet-mapping>
+		
+		<servlet>
+			<servlet-name>newPassword</servlet-name>
+			<jsp-file>/newPassword.jsp</jsp-file>
+		</servlet>
+		<servlet-mapping>
+			<servlet-name>newPassword</servlet-name>
+			<url-pattern>/newPassword</url-pattern>
+		</servlet-mapping>
+		
+        <servlet>
+			<servlet-name>registration</servlet-name>
+			<servlet-class>com.login.registration</servlet-class>
+		</servlet>
+		<servlet-mapping>
+			<servlet-name>registration</servlet-name>
+			<url-pattern>/registration</url-pattern>
+		</servlet-mapping>
+		
+		<servlet>
+			<servlet-name>verification</servlet-name>
+			<servlet-class>com.login.verification</servlet-class>
+		</servlet>
+		<servlet-mapping>
+			<servlet-name>verification</servlet-name>
+			<url-pattern>/verification</url-pattern>
+		</servlet-mapping>
+		
+		<servlet>
+			<servlet-name>activationCode</servlet-name>
+			<servlet-class>com.login.activationCode</servlet-class>
+		</servlet>
+		<servlet-mapping>
+			<servlet-name>activationCode</servlet-name>
+			<url-pattern>/activationCode</url-pattern>
+		</servlet-mapping>
+		
+		<servlet>
+			<servlet-name>resendCode</servlet-name>
+			<servlet-class>com.login.resendCode</servlet-class>
+		</servlet>
+		<servlet-mapping>
+			<servlet-name>resendCode</servlet-name>
+			<url-pattern>/resendCode</url-pattern>
+		</servlet-mapping>
+		
+		<servlet>
+			<servlet-name>loginAccount</servlet-name>
+			<servlet-class>com.login.loginAccount</servlet-class>
+		</servlet>
+		<servlet-mapping>
+			<servlet-name>loginAccount</servlet-name>
+			<url-pattern>/loginAccount</url-pattern>
+		</servlet-mapping>
+		
+		<servlet>
+			<servlet-name>forgetPasswordGenerate</servlet-name>
+			<servlet-class>com.login.forgetPasswordGenerate</servlet-class>
+		</servlet>
+		<servlet-mapping>
+			<servlet-name>forgetPasswordGenerate</servlet-name>
+			<url-pattern>/forgetPasswordGenerate</url-pattern>
+		</servlet-mapping>
+		
+		<servlet>
+			<servlet-name>verificationSuccess</servlet-name>
+			<jsp-file>/verificationSuccess.jsp</jsp-file>
+		</servlet>
+		<servlet-mapping>
+			<servlet-name>verificationSuccess</servlet-name>
+			<url-pattern>/verificationSuccess</url-pattern>
+		</servlet-mapping>
+		
+		<servlet>
+			<servlet-name>changePassword</servlet-name>
+			<servlet-class>com.login.changePassword</servlet-class>
+		</servlet>
+		<servlet-mapping>
+			<servlet-name>changePassword</servlet-name>
+			<url-pattern>/changePassword</url-pattern>
+		</servlet-mapping>
+		
+		<servlet>
+			<servlet-name>changePasswordProcess</servlet-name>
+			<servlet-class>com.login.changePasswordProcess</servlet-class>
+		</servlet>
+		<servlet-mapping>
+			<servlet-name>changePasswordProcess</servlet-name>
+			<url-pattern>/changePasswordProcess</url-pattern>
+		</servlet-mapping>
+		
+</web-app>
+
